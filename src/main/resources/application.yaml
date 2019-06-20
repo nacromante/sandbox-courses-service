@@ -1,0 +1,16 @@
+
+server:
+  port: 8092
+spring:
+    application:
+        name: courses-service
+
+eureka:
+  client:
+    fetch-registry: true
+  instance:
+    hostname: localhost  
+
+services:
+    studants:
+        url: STUDANTS-SERVICE
