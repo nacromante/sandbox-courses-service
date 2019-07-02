@@ -9,7 +9,7 @@ eureka:
   client:
     fetch-registry: true
   instance:
-    hostname: localhost  
+    hostname: EUREKA_HOST  
 
 services:
     studants:
